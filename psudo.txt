@@ -1,0 +1,24 @@
+Word Guess
+--core displaying a random word to a user to attempt to guess correctly in some sort of timeframe(timer)
+how am I going to randomly choose a word for the user to guess??
+how do i turn the random word into blanks???
+how do i know based on the character they typed if it is part of that word?  need an event handler thats listening for a keyboard event
+once I have captured that value, how can i then check if that key they pressed is a part of that word???
+if it is, display the character in any blank that is part of the word
+Variable Declarations - data do i need to track?  store references to elements based on id or class
+variable for words
+var words = ["Star Trek", "Westworld", "Breaking Bad"]
+variable for wins/losses
+var wins = 0;
+var losses = 0;
+var chosenWord = ""
+Functions
+getStarted()
+makeBlanks()
+checkLetters()
+checkWins()
+checkLosses()
+startTimer()
+Event Handlers
+when the user clicks the start button a random word that is displayed as blanks
+when the user clicks down on a key, capture the value of the key and check if that value is part of the chosen word
